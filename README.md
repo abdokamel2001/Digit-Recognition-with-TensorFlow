@@ -15,3 +15,8 @@ This TensorFlow-based project focuses on digit recognition using the MNIST datas
 1. Open the `Digit_Recognition.ipynb` Jupyter Notebook to work with the project.
 2. The dataset is stored in the `Data/` folder, and labels are available in `labels.json`.
 3. To access the full dataset, download and extract `Digit_Recognition.zip`.
+
+## Performance Plots
+
+- `accuracy.png`: The plot displays the model's accuracy during training.
+- `loss.png`: The plot shows the model's loss over the training epochs.
