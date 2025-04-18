@@ -1,22 +1,37 @@
-# Digit-Recognition-with-TensorFlow
+# Digit Recognition with TensorFlow
 
-This TensorFlow-based project focuses on digit recognition using the MNIST dataset. It includes a Jupyter Notebook for model training and evaluation.
+A hands‑on walkthrough of training a neural network to recognise handwritten digits from the **MNIST** dataset.
 
-## Contents
+## 🗂 Project Structure
+```
 
-- `Digit_Recognition.ipynb`: Jupyter Notebook for model training and evaluation.
-- `Data/`: Folder containing the dataset.
-- `labels.json`: JSON file with label information.
-- `Digit_Recognition.zip`: Zip archive containing the dataset and JSON file.
-- `mnist_model.h5`: Trained model file for digit recognition.
+Digit_Recognition.ipynb ← Jupyter notebook (train + evaluate)  
+Data/ ← Unzipped MNIST images + `labels.json`  
+mnist_model.h5 ← Pre‑trained model for quick inference  
+accuracy.png ‑ loss.png ← Training curves
 
-## Usage
+```
 
-1. Open the `Digit_Recognition.ipynb` Jupyter Notebook to work with the project.
-2. The dataset is stored in the `Data/` folder, and labels are available in `labels.json`.
-3. To access the full dataset, download and extract `Digit_Recognition.zip`.
+## ✨ Key Features
+- Fully‑connected neural network (Keras) reaching **98 %+** test accuracy.  
+- Notebook shows training progress, evaluation metrics, and sample predictions.  
+- Pre‑trained `mnist_model.h5` so you can skip training if you wish.
 
-## Performance Plots
+## 🚀 Quick Start
+1. Clone the repo & install deps  
+   ```bash
+   pip install tensorflow matplotlib
+   ```
 
-- `accuracy.png`: The plot displays the model's accuracy during training.
-- `loss.png`: The plot shows the model's loss over the training epochs.
+2. Open **`Digit_Recognition.ipynb`** and run all cells.
+    
+    - If `Data/` isn’t extracted yet, unzip `Digit_Recognition.zip` first.
+        
+
+## 📊 Results
+
+![Accuracy curve](accuracy.png) ![Loss curve](loss.png)
+
+## 🛡 License
+
+MIT
